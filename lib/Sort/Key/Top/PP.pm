@@ -9,7 +9,7 @@ use Exporter::Everything;
 
 BEGIN {
 	$Sort::Key::Top::PP::AUTHORITY = 'cpan:TOBYINK';
-	$Sort::Key::Top::PP::VERSION   = '0.001';
+	$Sort::Key::Top::PP::VERSION   = '0.002';
 }
 
 sub _tail_numeric {
@@ -439,6 +439,11 @@ C<keytail>
 C<nkeytail>
 
 =back
+
+By default I<< all functions are exported >>. If you don't like that, then
+please specify an explicit list of functions to import, a la:
+
+  use Sort::Key::Top::PP 'top';
 
 =head1 BUGS
 

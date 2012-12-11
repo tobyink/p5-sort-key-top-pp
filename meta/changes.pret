@@ -4,3 +4,8 @@
 	issued  2012-12-11;
 	label   "Initial release".
 
+`Sort-Key-Top-PP 0.002 cpan:TOBYINK`
+	issued  2012-12-11;
+	changeset [
+		item "Oops! List Exporter::Everything as a dep."^^Packaging;
+	].
