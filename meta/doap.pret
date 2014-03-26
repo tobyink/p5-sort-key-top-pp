@@ -8,7 +8,7 @@
 	:homepage             <https://metacpan.org/release/Sort-Key-Top-PP>;
 	:download-page        <https://metacpan.org/release/Sort-Key-Top-PP>;
 	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=Sort-Key-Top-PP>;
-	:repository           <https://bitbucket.org/tobyink/p5-sort-key-top-pp>;
+	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-sort-key-top-pp> ];
 	:created              2012-12-11;
 	:license              <http://dev.perl.org/licenses/>;
 	:maintainer           cpan:TOBYINK;

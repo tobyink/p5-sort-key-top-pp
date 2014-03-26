@@ -9,3 +9,10 @@
 	changeset [
 		item "Oops! List Exporter::Everything as a dep."^^Packaging;
 	].
+
+`Sort-Key-Top-PP 0.003 cpan:TOBYINK`
+	issued  2014-03-26;
+	changeset [
+		item "Exporter::Everything -> Exporter::Shiny."^^Update;
+		item "use Dist::Inkt"^^Packaging;
+	].
