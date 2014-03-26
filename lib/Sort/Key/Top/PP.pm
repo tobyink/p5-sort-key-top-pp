@@ -5,12 +5,37 @@ use strict;
 use warnings;
 no warnings qw( once );
 
-use Exporter::Everything;
-
 BEGIN {
 	$Sort::Key::Top::PP::AUTHORITY = 'cpan:TOBYINK';
 	$Sort::Key::Top::PP::VERSION   = '0.002';
 }
+
+use Exporter::Shiny our(@EXPORT) = qw(
+	top
+	topsort
+	keytop
+	keytopsort
+	ntop
+	ntopsort
+	nkeytop
+	nkeytopsort
+	rtop
+	rtopsort
+	rkeytop
+	rkeytopsort
+	rntop
+	rntopsort
+	rnkeytop
+	rnkeytopsort
+	head
+	nhead
+	keyhead
+	nkeyhead
+	tail
+	ntail
+	keytail
+	nkeytail
+);
 
 sub _tail_numeric {
 	my ($list, $top_n) = @_;
@@ -443,7 +468,7 @@ C<nkeytail>
 By default I<< all functions are exported >>. If you don't like that, then
 please specify an explicit list of functions to import, a la:
 
-  use Sort::Key::Top::PP 'top';
+   use Sort::Key::Top::PP qw( top );
 
 =head1 BUGS
 
@@ -466,7 +491,7 @@ API inspired by L<Sort::Key::Top> by Salvador Fandiño García (cpan:SALVA).
 
 =head1 COPYRIGHT AND LICENCE
 
-This software is copyright (c) 2012 by Toby Inkster.
+This software is copyright (c) 2012, 2014 by Toby Inkster.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
