@@ -7,7 +7,7 @@ no warnings qw( once );
 
 BEGIN {
 	$Sort::Key::Top::PP::AUTHORITY = 'cpan:TOBYINK';
-	$Sort::Key::Top::PP::VERSION   = '0.002';
+	$Sort::Key::Top::PP::VERSION   = '0.003';
 }
 
 use Exporter::Shiny our(@EXPORT) = qw(
